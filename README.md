@@ -26,3 +26,19 @@
 - 사용자ID를 저장 (쿠키에 저장)
 - 비밀번호 체크를 서버에 요청 (토큰으로 보내자)
 - 결국, 로그인을 성공시키자.
+# 07월 30일 내용
+1. 카카오톡 클라이언트 만들기위한 준비사항
+  - npx (Node Packege eXecute) : 설치 + 실행
+  - 리엑트 설치
+    = npx create-react-app@
+    - cd 폴더명 / npm run start
+  - tailwind CSS 설치
+    - npm install -D tailwindcss
+    - npx tailwindcss init
+    - tailwind.config.js "./src/**/*.{html,js}"
+    - src/index.css 맨 위 코드에 삽입
+  - React Router 설치
+    - npm install react-router-dom
+  - visual studio 확장팩 설치하기
+    - tailwind CSS IntelliSense
+    - ES7 React/Redux/React-Native snippets
