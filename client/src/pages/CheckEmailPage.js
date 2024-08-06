@@ -5,7 +5,7 @@ const CheckEmailPage = () => {
         <div className='mt-5'>
             <div className='bg-white w-full max-w-sm rounded overflow-hidden p-4 mx-auto'>
                 <h3> 회원가입 페이지</h3>
-                <form className='grid gap-4 mt-5' onSubmit={hangleSubmit}>
+                <form className='grid gap-4 mt-5' >
                     <div className='flex flex-col gap-1'>
                         <label htmlFor='email'>카카오계정 : </label>
                         <input
@@ -13,7 +13,6 @@ const CheckEmailPage = () => {
                             type='text'
                             id='email'
                             name='email'
-                            onChange={hangleOnChange}
                         />
                     </div>
                     <button className='bg-primary text-lg px-4 py-1 hover:bg-secondary rounded mt-2 font-bold text-white leading-relaxed tracking-wide'>
