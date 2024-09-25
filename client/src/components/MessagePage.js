@@ -6,6 +6,7 @@ import { HiDotsVertical } from 'react-icons/hi'
 import { IoMdSend } from 'react-icons/io'
 
 const MessagePage = () => {
+    
     return (
         <div style={{backgroundImage:`url(${backgroundImage})`}} className='bg-no-repeat bg-cover'>
             {/* 대화방 헤더 */}

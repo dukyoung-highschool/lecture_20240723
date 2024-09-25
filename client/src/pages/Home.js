@@ -17,6 +17,7 @@ const Home = () => {
             }
         })
         socketConnection.on('onlineUser',(data)=>{
+            console.log(data)
             // 연결된 사용자들을 서버에서 줬네요. 야호 신난다....
         })
         return ()=>{
